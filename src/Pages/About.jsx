@@ -142,9 +142,9 @@ const AboutPage = () => {
     }
   
     return {
-      totalProjects: storedProjects.length || 0,
-      totalCertificates: storedCertificates.length || 0,
-      YearExperience: YearExperience || 0,
+      totalProjects: storedProjects.length || "loading...",
+      totalCertificates: storedCertificates.length || "loading...",
+      YearExperience: YearExperience || "loading...",
     };
   }, []);
 
