@@ -14,11 +14,7 @@ Let me introduce myself, I’m Moamen Ayman. On this occasion, I’d like to sha
 - SweetAlert2  
 
 **Website Link:**  
-[https://www.eki.my.id/](https://www.eki.my.id/)  
-
-We would appreciate it if you decide to use this project. Please include credit when using it. Thank you! 🙏  
-
----
+[https://my-portfolio-roan-five-74.vercel.app/](https://my-portfolio-roan-five-74.vercel.app/)  
 
 # Tutorial: Running the Project  
 

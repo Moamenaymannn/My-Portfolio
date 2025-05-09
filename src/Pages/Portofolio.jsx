@@ -1,7 +1,7 @@
 import React, { useEffect, useState, useCallback } from "react";
-import { db, collection } from "../firebase";
+//import { db, collection } from "../firebase";
 import { supabase } from "../supabaseClient";
-import { getDocs } from "firebase/firestore";
+//import { getDocs } from "firebase/firestore";
 import PropTypes from "prop-types";
 import SwipeableViews from "react-swipeable-views";
 import { useTheme } from "@mui/material/styles";
