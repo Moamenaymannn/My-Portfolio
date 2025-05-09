@@ -98,8 +98,8 @@ const WORDS = ["Open-Source Applications", "Software Engineer"];
 const TECH_STACK = ["React", "Javascript", "Node.js", "Tailwind"];
 const SOCIAL_LINKS = [
   { icon: Github, link: "https://github.com/Moamenaymannn" },
-  { icon: Linkedin, link: "https://www.linkedin.com/feed/" },
-  // { icon: Instagram, link: "" }
+  { icon: Linkedin, link: "https://www.linkedin.com/in/moamen-ayman-78bb5833a/" },
+  { icon: Instagram, link: "https://www.instagram.com/moamen.aymannn?igsh=MTZtcDVwcDJ4NTBicA%3D%3D&utm_source=qr" }
 ];
 
 const Home = () => {

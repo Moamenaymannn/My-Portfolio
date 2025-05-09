@@ -23,7 +23,7 @@ const socialLinks = [
     displayName: "Instagram",
     subText: "Moamen",
     icon: Instagram,
-   // url: "",
+    url: "https://www.instagram.com/moamen.aymannn?igsh=MTZtcDVwcDJ4NTBicA%3D%3D&utm_source=qr",
     color: "#E4405F",
     gradient: "from-[#833AB4] via-[#E4405F] to-[#FCAF45]"
   },
