@@ -147,28 +147,7 @@ export default function FullWidthTabs() {
 
   const fetchData = useCallback(async () => {
     try {
-      //  const projectCollection = collection(db, "projects");
-      // const certificateCollection = collection(db, "certificates");
-
-      // const [projectSnapshot, certificateSnapshot] = await Promise.all([
-      //   getDocs(projectCollection),
-        //getDocs(certificateCollection),
-     // ]);
-
-      // const projectData = projectSnapshot.docs.map((doc) => ({
-      //   id: doc.id,
-      //   ...doc.data(),
-      //   TechStack: doc.data().TechStack || [],
-      // }));
-
-      // const certificateData = certificateSnapshot.docs.map((doc) => doc.data());
-
-      //setProjects(projectData);
-      // setCertificates(certificateData);
-
-      //  Store in localStorage
-      // localStorage.setItem("projects", JSON.stringify(projectData));
-      // localStorage.setItem("certificates", JSON.stringify(certificateData));
+      
 
       const { data: projectsData, error: projectsError } = await supabase
       .from('projects')
@@ -181,12 +160,12 @@ export default function FullWidthTabs() {
 
       if (projectsError || certError) throw new Error("Error fetching data");
 
-    // تحديث حالة الشهادات
+    
     setCertificates(certificatesData);
     setProjects(projectsData);
     localStorage.setItem("certificates", JSON.stringify(certificatesData));
 
-    // (اختياري) حفظ في localStorage
+    
     localStorage.setItem("certificates", JSON.stringify(certificatesData));
     localStorage.setItem("projects", JSON.stringify(projectsData));
     } catch (error) {
